@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-outline-secondary{
+  padding-right: 121px;
+  padding-left: 121px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: 0px;
+}
+
+.text-center{
+  margin-top: 10px;
+}
